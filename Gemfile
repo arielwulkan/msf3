@@ -38,6 +38,7 @@ gem 'bootstrap-sass', '~> 3.3.6'
 
 gem 'mysql2', '~> 0.3.18'
 
+gem 'devise'
 
 
 group :development, :test do
