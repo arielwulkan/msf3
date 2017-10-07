@@ -10,11 +10,11 @@
 </head>
 <body>
 
-<div class="container">
+<!-- <div class="container">
   <h1>My First Bootstrap Page</h1>
   <p>This is some text.</p>
   
-<!--  <% @users.each do |user| %>
+ <% @users.each do |user| %>
     <div class="col-xs-12">
       <div class="text-center">
         <h2><%= user.email %></h2>
@@ -22,6 +22,27 @@
     </div>
   <% end %>
   -->
+
+<div class="container">
+  <br>
+	<div class="row">
+        <div class="col-md-3">
+            
+            <%= link_to "Ativar/Desativar Zonas", zone_list_path %>
+            <a href="../zones/zone_list.html.erb" class="btn btn-primary btn-lg btn-block btn-huge">Ativar/Desativar Zonas</a>
+        </div>
+        <div class="col-md-3">
+            <a href="#" class="btn btn-primary btn-lg btn-block btn-huge">Atividade 2</a>
+        </div>
+        <div class="col-md-3">
+            <a href="#" class="btn btn-primary btn-lg btn-block btn-huge">Atividade 3</a>
+        </div>
+        <div class="col-md-3">
+            <a href="#" class="btn btn-primary btn-lg btn-block btn-huge">Atividade 4</a>
+        </div>
+	</div>  
+  
+  
 </div>
 
 </body>
