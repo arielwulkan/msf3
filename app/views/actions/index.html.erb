@@ -12,7 +12,15 @@
 
 <div class="container">
   <h1>My First Bootstrap Page</h1>
-  <p>This is some text.</p> 
+  <p>This is some text.</p>
+  
+  <% @users.each do |user| %>
+    <div class="col-xs-12">
+      <div class="text-center">
+        <h2><%= user.email %></h2>
+      </div>
+    </div>
+  <% end %>
 </div>
 
 </body>
