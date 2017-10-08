@@ -4,4 +4,9 @@ class ZonesController < ApplicationController
     
   end
   
+  def acesso
+    
+  end
+  
+  
 end
